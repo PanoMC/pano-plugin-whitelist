@@ -1,9 +1,9 @@
-package com.panomc.plugins.boilerplate
+package com.panomc.plugins.whitelist
 
 import com.panomc.platform.api.PanoPlugin
 import com.panomc.plugins.license.PluginLicenseClient
 
-class BoilerplatePlugin : PanoPlugin() {
+class WhitelistPlugin : PanoPlugin() {
     /**
      * Premium plugins call requireValidLicense() at the top of onStart so any failure
      * propagates up as a [com.panomc.platform.license.LicenseRequiredException], PF4J
