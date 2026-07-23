@@ -1,3 +1,37 @@
 {
-  "hello-world": "Merhaba dünya!"
+  "nav": {
+    "whitelist": "Beyaz Liste"
+  },
+  "tabs": {
+    "overview": "Genel Bakış"
+  },
+  "pages": {
+    "whitelist": {
+      "title": "Beyaz Liste"
+    },
+    "overview": {
+      "title": "Genel Bakış",
+      "modes-title": "Modlar",
+      "no-modes": "Henüz mod oluşturulmamış."
+    }
+  },
+  "modes": {
+    "defaults": {
+      "closed-beta": {
+        "name": "Kapalı Beta"
+      },
+      "open-beta": {
+        "name": "Açık Beta"
+      }
+    },
+    "status": {
+      "active": "Aktif"
+    }
+  },
+  "permissions": {
+    "MANAGE_WHITELIST": {
+      "title": "Beyaz Liste Yönetimi",
+      "description": "Beyaz listeyi yönetebilir."
+    }
+  }
 }

@@ -1,3 +1,37 @@
 {
-  "hello-world": "Hello world!"
+  "nav": {
+    "whitelist": "Whitelist"
+  },
+  "tabs": {
+    "overview": "Overview"
+  },
+  "pages": {
+    "whitelist": {
+      "title": "Whitelist"
+    },
+    "overview": {
+      "title": "Overview",
+      "modes-title": "Modes",
+      "no-modes": "No modes have been created yet."
+    }
+  },
+  "modes": {
+    "defaults": {
+      "closed-beta": {
+        "name": "Closed Beta"
+      },
+      "open-beta": {
+        "name": "Open Beta"
+      }
+    },
+    "status": {
+      "active": "Active"
+    }
+  },
+  "permissions": {
+    "MANAGE_WHITELIST": {
+      "title": "Manage Whitelist",
+      "description": "Can manage the whitelist."
+    }
+  }
 }

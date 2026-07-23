@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "whitelist": "Белый список"
+  },
+  "tabs": {
+    "overview": "Обзор"
+  },
+  "pages": {
+    "whitelist": {
+      "title": "Белый список"
+    },
+    "overview": {
+      "title": "Обзор",
+      "modes-title": "Режимы",
+      "no-modes": "Режимы ещё не созданы."
+    }
+  },
+  "modes": {
+    "defaults": {
+      "closed-beta": {
+        "name": "Закрытая бета"
+      },
+      "open-beta": {
+        "name": "Открытая бета"
+      }
+    },
+    "status": {
+      "active": "Активный"
+    }
+  },
+  "permissions": {
+    "MANAGE_WHITELIST": {
+      "title": "Управление белым списком",
+      "description": "Может управлять белым списком."
+    }
+  }
+}
