@@ -16,6 +16,10 @@
           {
             "path": "build/libs/*.jar",
             "label": false
+          },
+          {
+            "path": "LICENSE",
+            "label": false
           }
         ]
       }
