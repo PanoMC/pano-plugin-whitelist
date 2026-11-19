@@ -16,7 +16,7 @@ permissions:
 
 jobs:
   get-next-version:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, pano-build]
     permissions:
       contents: write # to be able to publish a GitHub release
       issues: write # to be able to comment on released issues
@@ -48,7 +48,7 @@ jobs:
       new_tag_version: ${{ steps.get-next-version.outputs.new_tag_version }}
 
   build-and-release:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, pano-build]
     needs: get-next-version
     if: ${{needs.get-next-version.outputs.new_tag_version != ''}}
     permissions:
