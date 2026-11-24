@@ -5,7 +5,7 @@
     </CardHeader>
 
     {#if modes.length === 0}
-      <NoContent />
+      <NoContent text={$_('pages.overview.no-modes')} />
     {:else}
       <ModesTimeline {modes} />
     {/if}
@@ -32,18 +32,7 @@
   import WhitelistLayout from '../layouts/WhitelistLayout.svelte';
   import ModesTimeline from '../components/ModesTimeline.svelte';
 
-  const modes = [
-    {
-      id: 'closed-beta',
-      nameKey: 'modes.defaults.closed-beta.name',
-      icon: 'fas fa-lock',
-      isActive: false,
-    },
-    {
-      id: 'open-beta',
-      nameKey: 'modes.defaults.open-beta.name',
-      icon: 'fas fa-door-open',
-      isActive: true,
-    },
-  ];
+  // Modes come from the backend once it exists; until then show the empty state instead of placeholder data.
+  /** @type {{ id: string, nameKey: string, icon: string, isActive: boolean }[]} */
+  const modes = [];
 </script>

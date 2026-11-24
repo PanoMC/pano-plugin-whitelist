@@ -11,8 +11,8 @@
     },
     "overview": {
       "title": "Genel Bakış",
-      "modes-title": "Modlar",
-      "no-modes": "Henüz mod oluşturulmamış."
+      "modes-title": "Aşamalar",
+      "no-modes": "Henüz aşama oluşturulmamış."
     }
   },
   "modes": {
@@ -25,7 +25,7 @@
       }
     },
     "status": {
-      "active": "Aktif"
+      "active": "Etkin"
     }
   },
   "permissions": {
